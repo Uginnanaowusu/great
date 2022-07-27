@@ -1,0 +1,350 @@
+.img{
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 5px;
+	width: 200px;
+	padding-top: 20px;
+	
+	
+}
+body{
+background-color: #cccc;
+}
+
+a: link, a: visited{
+	 background-color: black;
+	 color:black;
+     padding: 10px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     position: center;
+	 border-radius: 20px;
+  
+}
+
+ a:hover, a:active {
+  background-color: #228B22;
+}
+
+table, th, td {
+  border:2px solid black;
+}
+h2{
+	text-align: center;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=number], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+}
+
+td{
+	text-align: center;
+}
+
+.color {
+	background-color: DarkBlue;
+}
+
+
+#announce{
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+	background-color: #f9ecc8;
+	color:#300;
+	font-weight: 300;
+	font-size:16px;	
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 50px 10px 250px;
+    box-sizing: border-box;
+}
+
+#nav1 {
+    order: 1;
+}
+
+.logo {
+    order: 2;
+}
+
+#nav2 {
+    order: 3;
+    margin-left: -50px;
+}
+
+.logo {
+    margin: 0px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #58181F;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+ .nav-links a:nth-child(1) {
+     margin-right: 50px;
+ }
+ .nav-links a {
+    transition: all 0.3s ease 0s;
+ }
+
+ .nav-links li:hover {
+     color: #fff;
+     background-color: #58181F;
+ }
+ 
+ .ban{
+	  margin-left:auto; 
+    margin-right:auto;
+	width: 70%;
+ }
+ 
+ .mic{
+	 text-align:center;
+ }
+ 
+ 
+ 
+.our{
+	text-align: center;
+	position:relative;
+}
+
+.gee{
+	background-color:white;
+	 margin-left:auto; 
+    margin-right:auto;
+}
+
+
+//carousel
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+.bon{
+	background-color: white;
+	
+}

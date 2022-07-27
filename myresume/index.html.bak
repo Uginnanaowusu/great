@@ -1,0 +1,124 @@
+<!Doctype Html>
+<html>
+<head>
+<title>	MY RESUME...</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/mycss.css" >
+</head>
+<body>
+    <p id="announce"> <i>MY</i> <b> RESUME </b></p>
+	        <header>
+            <nav>
+                <ul class="nav-links" id="nav1">
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="jobs.html"><li>JOBS</li></a>
+					<a href="schools.html"><li>SCHOOLS ATTENDED</li></a>
+					<a href="skills.html"><li>SKILLS ACQUIRED</li></a>
+					<a href="awards.html"><li>AWARDS</li></a>
+					
+                </ul>
+            </nav>
+			</header>
+      
+     
+	 
+	 <div class="img">
+    <img src="images/yaw.jpg" alt="Picture" width="1300px" >
+</div>
+	 
+	 
+	 <h2>Demographic Information Of Nungua</h2>
+	 
+	 <table id="customers">
+  <tr>
+    <th>POPULATION OF MEN</th>
+    <th>POPULATION OF WOMEN</th>
+    <th>AVERAGE AGE</th>
+  </tr>
+  <tr>
+    <td>39,267</td>
+    <td>38,184</td>
+    <td>22years</td>
+  </tr>
+   </table>
+   
+   <table id="customers">
+   <tr>
+    <th>TERTIARY INSTITUITION</th>
+    <th>HOSPITAL</th>
+    <th>SENIOR HIGH SCHOOL</th>
+  </tr>
+  <tr>
+    <td>REGIONAL MARITIME UNIVERSITY</td>
+    <td>LEKMA HOSPITAL</td>
+	<td>NUNGUA SENIOR SCHOOL</td>
+    
+  </tr>
+  
+  <tr>
+    <td>LAWEH UNIVERSITY COLLEGE</td>
+    <td>LEKMA POLYCLINIC</td>
+	<td>PRESBYTERIAN SENIOR HIGH SCHOOL</td>
+    
+  </tr>
+  
+   <tr>
+    <td>GBC TRAINING COLLEGE</td>
+    <td>CHRISTIAN MEDICAL HOSPITAL</td>
+	<td>O'RAILLY SENIOR HIGH SCHOOL</td>
+    
+  </tr>
+  </table>
+  
+  <form>
+       
+	   <h3>CONTACT FORM.</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Full name..">
+
+    <label for="lname">Name of company</label>
+    <input type="text" id="lname" name="lastname" placeholder="Company name..">
+	
+	 <label for="contact">Phone number</label>
+    <input type="number" id="contact" name="contact" placeholder="Phone numbers only..">
+
+    <label for="region">Region</label>
+    <select id="region" name="region">
+      <option value="accra">Accra</option>
+      <option value="kumasi">Kumasi</option>
+      <option value="cape coast">cape Coast</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Kindly leave a messasge, I will get back to you soon" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  
+</div>
+  
+  
+  </form>
+ 
+  
+  <footer>
+       <p>Author: EUGENE OWUSU</br>
+	   <a href="uginnanaowusu.e@gmail.com">Email Address</a></p>
+	    <h3>SOCIAL MEDIA HANDLES</h3>
+		<a class="facebook" href="#"><img src="images/facebook.svg" alt="Facebook"></a>
+                <a class="snapchat" href="#"><img src="images/instagram.svg" alt="Instagram"></a>
+                <a class="pinterest" href="#"><img src="images/snapchat.svg" alt="Snapchat"></a>
+                <a class="twitter" href="#"><img src="images/twitter.svg" alt="Twitter"></a>
+				<a class="twitter" href="#"><img src="images/Pinterest.svg" alt="Twitter"></a>
+  </footer>
+
+</body>
+
+
+
+
+</html>
